@@ -1,7 +1,9 @@
 Sobre o projeto
+
 O projeto consiste na automação de testes de interface de um site utilizando Cypress.
 
-Setup 🛠️
+Setup 
+
 Primeiramente, é necessário instalar o Node.js
 
 Para inicializar o projeto, basta digitar no terminal (dentro da pasta do projeto):
@@ -23,7 +25,8 @@ Para executá-lo:
 
 npm run cy:open:cucumber e/ou npm run cy:run:cucumber (modo headless)
 
-Reports 📄
+Reports 
+
 Para gerar relatórios, foram usados dois reports generators:
 
 Mochawesome
@@ -34,5 +37,6 @@ npm run report:merge & npm run report:mocha
 Gerando relatório com Cucumber HTML Reports:
 npm run report:cucumber
 
-Integração contínua 🔄
+Integração contínua
+
 Foi utilizado o Github Actions para a integração contínua do projeto, e o GitHub Pages para publicar os relatórios em formato .html
