@@ -1,5 +1,3 @@
-Sobre o projeto
-
 O projeto consiste na automação de testes de interface de um site utilizando Cypress.
 
 Setup 
