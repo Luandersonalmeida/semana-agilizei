@@ -1,4 +1,5 @@
 #language: pt
+
 Funcionalidade: Cadastro
 
     Como usuário, desejo realizar um cadastro
@@ -13,4 +14,4 @@ Funcionalidade: Cadastro
     # Given / Dado -> contexto
     # When / Quando -> ação executada
     # Then / Entao -> resultado esperado
-    # And / E -> continuaidade do passo anterior
+    # And / E -> continuaidade dos passos anteriores

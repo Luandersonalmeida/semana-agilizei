@@ -32,7 +32,8 @@ context('Cadastro', () => {
 
         // Select e select2(Combos )
         cy.get('select#Skills').select('Javascript');
-        cy.get('select#countries').select('Argentina');
+       // cy.get('.select2-selection').select('Argentina');
+        //cy.get('select#countries').select('Argentina');
         cy.get('select#country').select('Australia', { force: true });
         cy.get('select#yearbox').select('1995');
         cy.get('select[ng-model^=month]').select('February');

@@ -19,7 +19,7 @@
   "devDependencies": {
     "chance": "^1.1.7",
     "cucumber-html-reporter": "^5.2.0",
-    "cypress": "^4.11.0",
+    "cypress": "^12.17.3",
     "cypress-cucumber-preprocessor": "^2.5.5",
     "cypress-file-upload": "^4.0.7",
     "cypress-multi-reporters": "^1.4.0",

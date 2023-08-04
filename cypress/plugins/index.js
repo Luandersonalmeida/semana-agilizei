@@ -19,4 +19,15 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
   on('file:preprocessor', cucumber())
-}
+
+  const version = config.env.version || 'teste'
+
+  config.env = require(`../config/${version}.json`)
+
+  config.baseUrl = config.env.baseUrl;
+
+  return config;
+  
+};
+
+
